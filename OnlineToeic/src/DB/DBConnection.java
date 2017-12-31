@@ -4,13 +4,13 @@ public class DBConnection {
 	public static Connection CreateConnection(){
 		Connection conn= null;
 
-//		String url="jdbc:mysql://localhost:3306/onlinetoeic";
-//		String username="root";
-//		String password="lich";
-		
-		String url="jdbc:mysql://node6004-monggogotoeic.ocs.opusinteractive.io/onlinetoeic?useUnicode=true&characterEncoding=UTF-8";
+		String url="jdbc:mysql://localhost:3306/onlinetoeic";
 		String username="root";
-		String password="ELEqvb11428";
+		String password="lich";
+		
+//		String url="jdbc:mysql://node6004-monggogotoeic.ocs.opusinteractive.io/onlinetoeic?useUnicode=true&characterEncoding=UTF-8";
+//		String username="root";
+//		String password="ELEqvb11428";
 
 
 		try {
